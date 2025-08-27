@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo Completo de Shishas - Estanco nº530</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;400;500&display=swap');
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: #f9f9f7;
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+        }
+        
+        .catalog {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            box-shadow: 0 0 25px rgba(0, 0, 0, 0.08);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #2c3e50 0%, #1a2530 100%);
+            color: white;
+            padding: 30px 20px;
+            text-align: center;
+        }
+        
+        h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.8rem;
+            margin-bottom: 10px;
+            letter-spacing: 1px;
+        }
+        
+        .subtitle {
+            font-weight: 300;
+            font-size: 1.2rem;
+            opacity: 0.9;
+            margin-bottom: 15px;
+        }
+        
+        .decoration {
+            width: 80px;
+            height: 3px;
+            background: #c19a6b;
+            margin: 0 auto;
+            border-radius: 2px;
+        }
+        
+        .intro {
+            padding: 25px;
+            text-align: center;
+            font-size: 1.1rem;
+            color: #555;
+            background: #f5f3ef;
+            border-bottom: 1px solid #eae7e1;
+        }
+        
+        .products-container {
+            padding: 20px;
+        }
+        
+        .category {
+            margin-bottom: 40px;
+            page-break-inside: avoid;
+        }
+        
+        .category-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.8rem;
+            color: #2c3e50;
+            padding-bottom: 10px;
+            margin-bottom: 25px;
+            border-bottom: 2px solid #c19a6b;
+            display: inline-block;
+        }
+        
+        .products-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 25px;
+        }
+        
+        .product-card {
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+            border: 1px solid #eee;
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+        
+        .product-image {
+            height: 200px;
+            background: #f5f3ef;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-bottom: 1px solid #eee;
+            position: relative;
+        }
+        
+        .product-info {
+            padding: 20px;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .product-name {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.3rem;
+            margin-bottom: 10px;
+            color: #2c3e50;
+        }
+        
+        .product-description {
+            color: #666;
+            font-size: 0.95rem;
+            margin-bottom: 15px;
+            flex-grow: 1;
+        }
+        
+        .product-dimensions {
+            background: #f8f5f0;
+            padding: 8px 12px;
+            border-radius: 4px;
+            font-size: 0.9rem;
+            color: #7d6b52;
+            margin-top: auto;
+            display: inline-block;
+            align-self: flex-start;
+        }
+        
+        .price-space {
+            margin-top: 15px;
+            padding: 8px 0;
+            height: 35px;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 30px 20px;
+            background: #2c3e50;
+            color: white;
+            margin-top: 40px;
+        }
+        
+        .contact-info {
+            margin-top: 15px;
+            font-size: 1rem;
+        }
+        
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+            
+            .catalog {
+                box-shadow: none;
+                border-radius: 0;
+            }
+            
+            .product-card {
+                page-break-inside: avoid;
+                break-inside: avoid;
+            }
+            
+            .no-print {
+                display: none;
+            }
+            
+            .price-space {
+                height: 30px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="catalog">
+        <header>
+            <h1>Estanco nº530</h1>
+            <p class="subtitle">Catálogo Completo de Shishas Premium</p>
+            <div class="decoration"></div>
+        </header>
+        
+        <div class="intro">
+            <p>Descubre nuestra exclusiva colección de shishas de la más alta calidad. Diseños elegantes y funcionales para los amantes del sabor y la tradición.</p>
+        </div>
+        
+        <div class="products-container">
+            <!-- Serie Big Mike -->
+            <div class="category">
+                <h2 class="category-title">Serie Big Mike</h2>
+                <div class="products-grid">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="BIG MIKE.png" alt="Nombre del producto" style="width: 100%; height: 100%; object-fit: contain;">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name">Big Mike Verde</h3>
+                            <p class="product-description">Shisha de diseño moderno y elegante, perfecta para ocasiones especiales.</p>
+                            <span class="product-dimensions">58 cm de altura</span>
+                            <div class="price-space"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Serie Pumpkin -->
+            <div class="category">
+                <h2 class="category-title">Serie Pumpkin</h2>
+                <div class="products-grid">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="Pumpkin BLUE.png" alt="Nombre del producto" style="width: 100%; height: 100%; object-fit: contain;">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name">Pumpkin Azul Claro</h3>
+                            <p class="product-description">Modelo compacto con un diseño contemporáneo y colores vibrantes.</p>
+                            <span class="product-dimensions">25 cm de altura</span>
+                            <div class="price-space"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="PARFUM PINK.png" alt="Nombre del producto" style="width: 100%; height: 100%; object-fit: contain;">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name">Pumpkin Rosa</h3>
+                            <p class="product-description">Shisha con un toque de color que realzará cualquier ambiente.</p>
+                            <span class="product-dimensions">25 cm de altura</span>
+                            <div class="price-space"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="PUMPKIN BLUE DARK.png" alt="Nombre del producto" style="width: 100%; height: 100%; object-fit: contain;">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name">Pumpkin Azul Oscuro</h3>
+                            <p class="product-description">Elegancia en tonos profundos para los más exigentes.</p>
+                            <span class="product-dimensions">25 cm de altura</span>
+                            <div class="price-space"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="PUMPKIN RED.png" alt="Nombre del producto" style="width: 100%; height: 100%; object-fit: contain;">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name">Pumpkin Roja</h3>
+                            <p class="product-description">Color pasión para una experiencia intensa y memorable.</p>
+                            <span class="product-dimensions">25 cm de altura</span>
+                            <div class="price-space"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="PUMPKIN BLACK.png" alt="Nombre del producto" style="width: 100%; height: 100%; object-fit: contain;">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name">Pumpkin Negra</h3>
+                            <p class="product-description">Sofisticación y estilo en el clásico color negro.</p>
+                            <span class="product-dimensions">25 cm de altura</span>
+                            <div class="price-space"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Serie Parfum -->
+            <div class="category">
+                <h2 class="category-title">Serie Parfum</h2>
+                <div class="products-grid">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="PARFUM BLUE.png" alt="Nombre del producto" style="width: 100%; height: 100%; object-fit: contain;">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name">Parfum 1 Azul</h3>
+                            <p class="product-description">Diseño ergonómico con un flujo de aire optimizado para mayor rendimiento.</p>
+                            <span class="product-dimensions">32 cm de altura</span>
+                            <div class="price-space"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="PARFUM GREEN.png" alt="Nombre del producto" style="width: 100%; height: 100%; object-fit: contain;">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name">Parfum 1 Verde</h3>
+                            <p class="product-description">Tono esmeralda que evoca naturaleza y frescura.</p>
+                            <span class="product-dimensions">32 cm de altura</span>
+                            <div class="price-space"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="PARFUM BLACK.png" alt="Nombre del producto" style="width: 100%; height: 100%; object-fit: contain;">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name">Parfum 1 Negra</h3>
+                            <p class="product-description">Elegancia atemporal en color negro con detalles refinados.</p>
+                            <span class="product-dimensions">32 cm de altura</span>
+                            <div class="price-space"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="PARFUM ORANGE.png" alt="Nombre del producto" style="width: 100%; height: 100%; object-fit: contain;">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name">Parfum 1 Naranja</h3>
+                            <p class="product-description">Color vibrante que aporta energía y calidez a tu espacio.</p>
+                            <span class="product-dimensions">32 cm de altura</span>
+                            <div class="price-space"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="PARFUM 2 GREEN.png" alt="Nombre del producto" style="width: 100%; height: 100%; object-fit: contain;">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name">Parfum 2 Verde</h3>
+                            <p class="product-description">Segunda generación con mejoras en el diseño y funcionalidad.</p>
+                            <span class="product-dimensions">32 cm de altura</span>
+                            <div class="price-space"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Serie Stone, Savannah y Levi -->
+            <div class="category">
+                <h2 class="category-title">Series Stone, Savannah y Levi</h2>
+                <div class="products-grid">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="SHISHA STONE VERDE.png" alt="Nombre del producto" style="width: 100%; height: 100%; object-fit: contain;">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name">Stone Verde</h3>
+                            <p class="product-description">Diseño robusto con acabados que simulan textura de piedra.</p>
+                            <span class="product-dimensions">45 cm de altura</span>
+                            <div class="price-space"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="SHISHA SAVANNAH.png" alt="Nombre del producto" style="width: 100%; height: 100%; object-fit: contain;">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name">Savannah Verde</h3>
+                            <p class="product-description">Inspirada en los tonos de la naturaleza, perfecta para interiores.</p>
+                            <span class="product-dimensions">55 cm de altura</span>
+                            <div class="price-space"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="LEVI BLACK.png" alt="Nombre del producto" style="width: 100%; height: 100%; object-fit: contain;">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name">Levi Negra</h3>
+                            <p class="product-description">Estilo moderno con base estable y diseño minimalista.</p>
+                            <span class="product-dimensions">45 cm de altura</span>
+                            <div class="price-space"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="LEVI BLUE.png" alt="Nombre del producto" style="width: 100%; height: 100%; object-fit: contain;">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name">Levi Azul</h3>
+                            <p class="product-description">Color azul profundo que transmite serenidad y elegancia.</p>
+                            <span class="product-dimensions">45 cm de altura</span>
+                            <div class="price-space"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="LEVI PINK.png" alt="Nombre del producto" style="width: 100%; height: 100%; object-fit: contain;">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name">Levi Rosa</h3>
+                            <p class="product-description">Tono suave y contemporáneo para espacios modernos.</p>
+                            <span class="product-dimensions">45 cm de altura</span>
+                            <div class="price-space"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Serie Al Malik -->
+            <div class="category">
+                <h2 class="category-title">Serie Premium Al Malik</h2>
+                <div class="products-grid">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="AL MALIK TIZ.jpg" alt="Nombre del producto" style="width: 100%; height: 100%; object-fit: contain;">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name">Al Malik Tiznit</h3>
+                            <p class="product-description">Edición limitada con detalles ornamentales y alto valor artesanal.</p>
+                            <span class="product-dimensions">45 cm de altura</span>
+                            <div class="price-space"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="AL MALIK TID.jpg" alt="Nombre del producto" style="width: 100%; height: 100%; object-fit: contain;">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name">Al Malik Tiddas</h3>
+                            <p class="product-description">Diseño exclusivo con patrones geométricos inspirados en arte tradicional.</p>
+                            <span class="product-dimensions">45 cm de altura</span>
+                            <div class="price-space"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="AL MALIK BAL.jpg" alt="Nombre del producto" style="width: 100%; height: 100%; object-fit: contain;">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name">Al Malik Bhalli</h3>
+                            <p class="product-description">Modelo de lujo con altura considerable y presencia imponente.</p>
+                            <span class="product-dimensions">55 cm de altura</span>
+                            <div class="price-space"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="AL MALIK GUI.jpg" alt="Nombre del producto" style="width: 100%; height: 100%; object-fit: contain;">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name">Al Malik Guisser</h3>
+                            <p class="product-description">Artesanía detallada con inspiración en los diseños bereberes.</p>
+                            <span class="product-dimensions">50 cm de altura</span>
+                            <div class="price-space"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="AL MALIK DEROU.jpg" alt="Nombre del producto" style="width: 100%; height: 100%; object-fit: contain;">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name">Al Malik Deroua</h3>
+                            <p class="product-description">Versión compacta de la serie premium, con todos los detalles de calidad.</p>
+                            <span class="product-dimensions">34 cm de altura</span>
+                            <div class="price-space"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="AL MALIK MARRA.jpg" alt="Nombre del producto" style="width: 100%; height: 100%; object-fit: contain;"> 
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name">Al Malik Marrakech</h3>
+                            <p class="product-description">Edición especial con inspiración en los diseños tradicionales marroquíes.</p>
+                            <span class="product-dimensions">42 cm de altura</span>
+                            <div class="price-space"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="AL MALIK OULME.jpg" alt="Nombre del producto" style="width: 100%; height: 100%; object-fit: contain;">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name">Al Malik Oulmes</h3>
+                            <p class="product-description">Alta gama con detalles artesanales y rendimiento superior.</p>
+                            <span class="product-dimensions">55 cm de altura</span>
+                            <div class="price-space"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="AL MALIK TOUNFI.jpg" alt="Nombre del producto" style="width: 100%; height: 100%; object-fit: contain;">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name">Al Malik Tounfit</h3>
+                            <p class="product-description">Diseño exclusivo con acabados premium y funcionalidad mejorada.</p>
+                            <span class="product-dimensions">50 cm de altura</span>
+                            <div class="price-space"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="AL MALIK LAK.jpg" alt="Nombre del producto" style="width: 100%; height: 100%; object-fit: contain;">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name">Al Malik Lakhsas</h3>
+                            <p class="product-description">Modelo compacto de la serie premium, ideal para espacios reducidos.</p>
+                            <span class="product-dimensions">28 cm de altura</span>
+                            <div class="price-space"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Otras shishas -->
+            <div class="category">
+                <h2 class="category-title">Otras Shishas</h2>
+                <div class="products-grid">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="SHISHA ROJA.png" alt="Nombre del producto" style="width: 100%; height: 100%; object-fit: contain;">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name">Shisha Roja Clásica</h3>
+                            <p class="product-description">Modelo tradicional con un vibrante color rojo y alto rendimiento.</p>
+                            <span class="product-dimensions">55 cm de altura</span>
+                            <div class="price-space"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <footer>
+            <h2>Estanco nº530</h2>
+            <p class="contact-info">Visítanos para descubrir nuestra completa colección de shishas y accesorios</p>
+            <p class="contact-info">Cualquier duda, consulte con nuestro personal especializado</p>
+        </footer>
+    </div>
+</body>
+</html>

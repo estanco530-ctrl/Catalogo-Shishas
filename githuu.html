@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Shishas - Estanco nº530</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: #f9f9f7;
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+        }
+        
+        .catalog {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            box-shadow: 0 0 25px rgba(0, 0, 0, 0.08);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #2c3e50 0%, #1a2530 100%);
+            color: white;
+            padding: 30px 20px;
+            text-align: center;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            font-weight: 300;
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        
+        .decoration {
+            width: 80px;
+            height: 3px;
+            background: #c19a6b;
+            margin: 15px auto;
+            border-radius: 2px;
+        }
+        
+        .intro {
+            padding: 25px;
+            text-align: center;
+            font-size: 1.1rem;
+            color: #555;
+            background: #f5f3ef;
+            border-bottom: 1px solid #eae7e1;
+        }
+        
+        .products-container {
+            padding: 20px;
+        }
+        
+        .category {
+            margin-bottom: 40px;
+        }
+        
+        .category-title {
+            font-size: 1.8rem;
+            color: #2c3e50;
+            padding-bottom: 10px;
+            margin-bottom: 25px;
+            border-bottom: 2px solid #c19a6b;
+        }
+        
+        .products-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 25px;
+        }
+        
+        .product-card {
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+            border: 1px solid #eee;
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+        
+        .product-image {
+            height: 200px;
+            background: #f5f3ef;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-bottom: 1px solid #eee;
+            padding: 15px;
+        }
+        
+        .product-image img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain;
+        }
+        
+        .product-info {
+            padding: 20px;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .product-name {
+            font-size: 1.3rem;
+            margin-bottom: 10px;
+            color: #2c3e50;
+        }
+        
+        .product-description {
+            color: #666;
+            font-size: 0.95rem;
+            margin-bottom: 15px;
+            flex-grow: 1;
+        }
+        
+        .product-dimensions {
+            background: #f8f5f0;
+            padding: 8px 12px;
+            border-radius: 4px;
+            font-size: 0.9rem;
+            color: #7d6b52;
+            margin-top: auto;
+            display: inline-block;
+            align-self: flex-start;
+        }
+        
+        .price-space {
+            margin-top: 15px;
+            padding: 8px 0;
+            height: 35px;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 30px 20px;
+            background: #2c3e50;
+            color: white;
+            margin-top: 40px;
+        }
+        
+        .contact-info {
+            margin-top: 15px;
+            font-size: 1rem;
+        }
+        
+        @media (max-width: 768px) {
+            .products-grid {
+                grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="catalog">
+        <header>
+            <h1>Estanco nº530</h1>
+            <p class="subtitle">Catálogo Completo de Shishas Premium</p>
+            <div class="decoration"></div>
+        </header>
+        
+        <div class="intro">
+            <p>Descubre nuestra exclusiva colección de shishas de la más alta calidad. Diseños elegantes y funcionales para los amantes del sabor y la tradición.</p>
+        </div>
+        
+        <div class="products-container">
+            <!-- Serie Big Mike -->
+            <div class="category">
+                <h2 class="category-title">Serie Big Mike</h2>
+                <div class="products-grid">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="BIG%20MIKE.png" alt="Big Mike Verde">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name">Big Mike Verde</h3>
+                            <p class="product-description">Shisha de diseño moderno y elegante, perfecta para ocasiones especiales.</p>
+                            <span class="product-dimensions">58 cm de altura</span>
+                            <div class="price-space"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Serie Pumpkin -->
+            <div class="category">
+                <h2 class="category-title">Serie Pumpkin</h2>
+                <div class="products-grid">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="Pumpkin%20BLUE.png" alt="Pumpkin Azul Claro">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name">Pumpkin Azul Claro</h3>
+                            <p class="product-description">Modelo compacto con un diseño contemporáneo y colores vibrantes.</p>
+                            <span class="product-dimensions">25 cm de altura</span>
+                            <div class="price-space"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="PARFUM%20PINK.png" alt="Pumpkin Rosa">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name">Pumpkin Rosa</h3>
+                            <p class="product-description">Shisha con un toque de color que realzará cualquier ambiente.</p>
+                            <span class="product-dimensions">25 cm de altura</span>
+                            <div class="price-space"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="PUMPKIN%20BLUE%20DARK.png" alt="Pumpkin Azul Oscuro">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name">Pumpkin Azul Oscuro</h3>
+                            <p class="product-description">Elegancia en tonos profundos para los más exigentes.</p>
+                            <span class="product-dimensions">25 cm de altura</span>
+                            <div class="price-space"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="PUMPKIN%20RED.png" alt="Pumpkin Roja">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name">Pumpkin Roja</h3>
+                            <p class="product-description">Color pasión para una experiencia intensa y memorable.</p>
+                            <span class="product-dimensions">25 cm de altura</span>
+                            <div class="price-space"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="PUMPKIN%20BLACK.png" alt="Pumpkin Negra">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name">Pumpkin Negra</h3>
+                            <p class="product-description">Sofisticación y estilo en el clásico color negro.</p>
+                            <span class="product-dimensions">25 cm de altura</span>
+                            <div class="price-space"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Continuaría con el resto de las categorías... -->
+            
+        </div>
+        
+        <footer>
+            <h2>Estanco nº530</h2>
+            <p class="contact-info">Visítanos para descubrir nuestra completa colección de shishas y accesorios</p>
+            <p class="contact-info">Cualquier duda, consulte con nuestro personal especializado</p>
+        </footer>
+    </div>
+</body>
+</html>
